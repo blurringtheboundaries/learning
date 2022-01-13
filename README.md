@@ -1,4 +1,4 @@
-# learning
+# Learning
 ## Introduction     
 This is my first document written using Markdown.
 
