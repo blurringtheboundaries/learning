@@ -20,7 +20,7 @@ It's designed to walk the user through in an easy to understand manner.
 #### Creating a heading
 - To create a new heading, navigate to the first line of text and press the # sign followed by a space. Then type the text for the heading.
 - Add a new line by pressing the enter key
-- Type the pound sign the desired number of times to create that level heading, followed by a space and the text for the heading.
+- To create sub-level headings, type the pound sign the desired number of times followed by the space bar, then type the desired text.
   
 #### Creating a bullet list
 - Type a dash followed by a space and the text.
