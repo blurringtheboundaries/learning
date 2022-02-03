@@ -11,6 +11,6 @@ This is a test page using the Tone JS library.
 
   function start(){
     Tone.start();
-    synth.triggerAttackRelease("C4");
+    synth.triggerAttackRelease("C4", 1);
   }
 </script>
