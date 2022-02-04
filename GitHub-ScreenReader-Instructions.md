@@ -23,7 +23,7 @@ It's designed to walk the user through in an easy to understand manner.
 - To create sub-level headings, type the pound sign the desired number of times followed by the space bar, then type the desired text.
   
 #### Creating a bullet list
-- Type a dash followed by a space, then the text of the bullet point.
+- Type a hyphen followed by a space, then the text of the bullet point.
 - To create sub-level bullet points, type the hyphen key the number of times corresponding to the desired level of bullet point. 
 
 # Creating a repository
