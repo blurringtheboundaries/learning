@@ -7,7 +7,8 @@ This is a test page using the Tone JS library.
 <script>
   // ['header_wrap','footer_wrap'].forEach(x=>document.getElementById(x).style.display='none')
   document.getElementById('header_wrap').style.display='none'
-  document.getElementById('footer_wrap').style.display='none'
+<!--   document.getElementById('footer_wrap').style.display='none' -->
+  document.querySelector('footer').style.display='none'
   const synth = new Tone.PolySynth();
   synth.toMaster();
 
