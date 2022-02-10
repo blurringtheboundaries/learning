@@ -1,1 +1,2 @@
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYfFb6gGMzNxVXFCf9UZ5MgVO2pRkOUp7RA0BgGq_wABt2HGe9K303kdBx10gFodvhXnRQfGfboqUz/pubchart?oid=408661778&amp;format=interactive"></iframe>
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://blurringtheboundaries.github.io/learning/javascript.md"></iframe>
+<iframe src=https://blurringtheboundaries.github.io/learning/javascript.md title='JavaScript iFrame'></iframe>
