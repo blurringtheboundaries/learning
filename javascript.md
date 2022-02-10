@@ -1,3 +1,9 @@
+<style>
+  body{
+  background-color:red;
+  }
+</style>
+
 This is a test page using the Tone JS library.
 
 <script>console.log("hello world")</script>
