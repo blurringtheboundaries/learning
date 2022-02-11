@@ -8,7 +8,7 @@
 # txt += "."
 # document.getElementById('myel').innerHTML = txt
 
-console.log ('updated')
+console.log('updated')
 
 const synth = new Tone.PolySynth();
 synth.toMaster();
@@ -18,4 +18,4 @@ function start(){
   synth.triggerAttackRelease("C4", 1);
 }
 
-document.getElementById('start').onclick=start;
+document.getElementById('start').onclick=function(){start();};
