@@ -9,11 +9,11 @@
 # document.getElementById('myel').innerHTML = txt
 
 const synth = new Tone.PolySynth();
-  synth.toMaster();
+synth.toMaster();
 
-  function start(){
-    Tone.start();
-    synth.triggerAttackRelease("C4", 1);
-  }
+function start(){
+  Tone.start();
+  synth.triggerAttackRelease("C4", 1);
+}
 
 document.getElementById('start').onclick=start;
