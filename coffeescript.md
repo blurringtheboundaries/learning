@@ -1,5 +1,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'></script>
-<script src="http://coffeescript.org/v2/browser-compiler/coffeescript.js" type="text/javascript"></script>
+<script src="https://coffeescript.org/v2/browser-compiler/coffeescript.js" type="text/javascript"></script>
 
 <div id='myel'></div>
 
