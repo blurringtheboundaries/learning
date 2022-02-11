@@ -7,11 +7,11 @@
 # txt = parts.join ' '
 # txt += "."
 # document.getElementById('myel').innerHTML = txt
+updated = "updated with synth"
+console.log updated
 
-console.log('updated')
-
-# const synth = new Tone.PolySynth();
-# synth.toMaster();
+const synth = new Tone.PolySynth();
+synth.toMaster();
 
 # function start(){
 #   Tone.start();
