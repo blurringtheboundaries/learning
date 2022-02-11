@@ -1,16 +1,6 @@
 ---
 ---
 
-# parts = ["testing", "CoffeeScript"]
-# for part in parts
-#   console.log part
-# txt = parts.join ' '
-# txt += "."
-# document.getElementById('myel').innerHTML = txt
-updated = "updated with synth, only plain js is button"
-console.log updated
-
-# const synth = new Tone.PolySynth();
 synth = new Tone.PolySynth()
 synth.toMaster()
 
@@ -21,4 +11,4 @@ start = ->
   rand = Tone.Frequency(rand, "midi").toFrequency()
   synth.triggerAttackRelease(rand, 1)
 
-document.getElementById('start').onclick = -> start()
+document.getElementById("start").onclick = -> start()
