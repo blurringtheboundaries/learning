@@ -17,7 +17,8 @@ This is a test page using the Tone JS library.
     synth.triggerAttackRelease("C4", 1);
   }
   function clearFooter() {
-    document.getElementById('footer_wrap').style.display='none'
+    document.getElementById('footer_wrap').style.display='none';
+    console.log('success?');
   }
   const timeoutFooter = setTimeout(clearFooter, 5000);
 
