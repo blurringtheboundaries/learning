@@ -10,8 +10,9 @@
 updated = "updated with synth"
 console.log updated
 
-const synth = new Tone.PolySynth();
-synth.toMaster();
+# const synth = new Tone.PolySynth();
+synth = new Tone.PolySynth()
+synth.toMaster()
 
 # function start(){
 #   Tone.start();
