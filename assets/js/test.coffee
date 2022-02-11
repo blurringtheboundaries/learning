@@ -7,16 +7,15 @@
 # txt = parts.join ' '
 # txt += "."
 # document.getElementById('myel').innerHTML = txt
-updated = "updated with synth"
+updated = "updated with synth, only plain js is button"
 console.log updated
 
 # const synth = new Tone.PolySynth();
 synth = new Tone.PolySynth()
 synth.toMaster()
 
-`function start(){
-  Tone.start();
-  synth.triggerAttackRelease("C4", 1);
-}
+start = ->
+  Tone.start()
+  synth.triggerAttackRelease("C4", 1)
 
-document.getElementById('start').onclick=function(){start();};`
+`document.getElementById('start').onclick=function(){start();};`
