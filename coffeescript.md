@@ -3,7 +3,7 @@
 
 <!-- <script src=https://cdnjs.cloudflare.com/ajax/libs/coffee-script/2.5.1/coffeescript.min.js></script> -->
 <div id='myel'></div>
-<script src="assets/js/test/js"></script>
+<script src="assets/js/test.js"></script>
 <button onclick="start()" style='width:100%;'>Play a note</button>
 
 <script>
