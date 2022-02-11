@@ -1,8 +1,5 @@
-# Tone Test 1
-This is a test page using the Tone JS library.
-
 <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'></script>
-<button onclick="start()">Play a note</button>
+<button onclick="start()" style='width:100%;'>Play a note</button>
 
 <script>
   const synth = new Tone.PolySynth();
@@ -17,6 +14,4 @@ This is a test page using the Tone JS library.
     console.log('success?');
   }
   const timeoutFooter = setTimeout(clearFooter, 1000);
-
-
 </script>
