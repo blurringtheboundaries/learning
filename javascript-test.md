@@ -1,1 +1,1 @@
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://blurringtheboundaries.github.io/learning/javascript.html"></iframe>
+<iframe width="80%" height="200px" seamless frameborder="0" scrolling="no" src="https://blurringtheboundaries.github.io/learning/javascript.html"></iframe>
