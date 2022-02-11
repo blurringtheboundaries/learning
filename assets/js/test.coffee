@@ -14,9 +14,9 @@ console.log updated
 synth = new Tone.PolySynth()
 synth.toMaster()
 
-# function start(){
-#   Tone.start();
-#   synth.triggerAttackRelease("C4", 1);
-# }
+`function start(){
+  Tone.start();
+  synth.triggerAttackRelease("C4", 1);
+}
 
-# document.getElementById('start').onclick=function(){start();};
+document.getElementById('start').onclick=function(){start();};`
