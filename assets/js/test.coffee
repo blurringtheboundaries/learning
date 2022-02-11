@@ -8,6 +8,8 @@
 # txt += "."
 # document.getElementById('myel').innerHTML = txt
 
+console.log 'updated'
+
 const synth = new Tone.PolySynth();
 synth.toMaster();
 
