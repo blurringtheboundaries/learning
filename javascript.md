@@ -5,10 +5,6 @@ This is a test page using the Tone JS library.
 <button onclick="start()">Play a note</button>
 
 <script>
-  // ['header_wrap','footer_wrap'].forEach(x=>document.getElementById(x).style.display='none')
-  document.getElementById('header_wrap').style.display='none'
-  
-  // document.querySelector('footer').style.display='none'
   const synth = new Tone.PolySynth();
   synth.toMaster();
 
@@ -17,10 +13,10 @@ This is a test page using the Tone JS library.
     synth.triggerAttackRelease("C4", 1);
   }
   function clearFooter() {
-    document.getElementById('footer_wrap').style.display='none';
+    ['header_wrap','footer_wrap'].forEach(x=>document.getElementById(x).style.display='none')
     console.log('success?');
   }
-  const timeoutFooter = setTimeout(clearFooter, 5000);
+  const timeoutFooter = setTimeout(clearFooter, 1000);
 
 
 </script>
