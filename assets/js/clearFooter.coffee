@@ -1,5 +1,5 @@
----
----
+# ---
+# ---
 
 function clearFooter() {
     ['header_wrap','footer_wrap'].forEach(x=>document.getElementById(x).style.display='none')
