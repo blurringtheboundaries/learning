@@ -1,13 +1,11 @@
 # Information 
-<p>
-  This is a first attempt at a screen-reader friendly coding tutorial for the Tone.js JavaScript library, developed through a collaboration on Zoom between Jason Dasent and Charles Matthews (Blurring the Boundaries Arts). In this tutorial will generate an HTML page with one header and a button that will play a note once clicked.  This requires us to create two files: an HTML page and a script written in JavaScript.
-</p>
-<p>
-  For now, this document will not describe how to actually create those files, since we still need to identify an appropriate screen-reader-compatible IDE for JavaScript. We had limited success with CodePen.io, which for the most part appeared to be compatible. There were two major barriers: entering text in the edit panels appeared to disable the screen reader at times, and there did not appear to be any error notifications that were revealed to the screen reader. So this is really more of a record of our conversation for now.
-  </p>
-<p>
-  Navigate to "JavaScript with annotations" for full information on the JavaScript code. Each line is presented as a text field with notes in bullet point form below.
-</p>
+
+This is a first attempt at a screen-reader friendly coding tutorial for the Tone.js JavaScript library, developed through a collaboration on Zoom between Jason Dasent and Charles Matthews (Blurring the Boundaries Arts). In this tutorial will generate an HTML page with one header and a button that will play a note once clicked.  This requires us to create two files: an HTML page and a script written in JavaScript.
+
+For now, this document will not describe how to actually create those files, since we still need to identify an appropriate screen-reader-compatible IDE for JavaScript. We had limited success with CodePen.io, which for the most part appeared to be compatible. There were two major barriers: entering text in the edit panels appeared to disable the screen reader at times, and there did not appear to be any error notifications that were revealed to the screen reader. So this is really more of a record of our conversation for now.
+
+Navigate to "JavaScript with annotations" for full information on the JavaScript code. Each line is presented as a text field with notes in bullet point form below.
+
 
 # HTML (annotated version coming soon) 
 ```
@@ -36,7 +34,7 @@ function start(){
 - The word new tells JavaScript to create a new object. We use Tone with a capital T to refer to the Tone library. After the dot, we type the name of the type of object we want to create
 - The tone library contains a type of object called PolySynth (capital P and S). This is followed by parentheses, which we can fill with parameters in future explorations.
   
-<p><b>line 2:</b><input value="synth.toMaster()" type=text></input>
+***line 2:*** <input value="synth.toMaster()" type=text></input>
 
 - Now that we have defined our synth, we can send it to the main output. In this version of the Tone library this is called toMaster (lower case t, upper case M). In later versions of Tone, this has been changed to toDestination.
 - Because synth is an object from the Tone library, it already contains the function called toMaster. We call this by typing a dot after the name synth, followed by toMaster, and finally add the two parentheses to tell JavaScript that we are calling a function.
