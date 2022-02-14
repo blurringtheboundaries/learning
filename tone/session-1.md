@@ -65,17 +65,22 @@
 - This right curly bracket closes the definition of the start function.
 
 
-# List of terms # 
+# List of terms 
 ## object 
 
 <p>An object is a collection of data, which might include numbers, text, and sub-programs.</p>
+
 ## function 
 <p>A function is a sub-program (a set of instructions). JavaScript has its own set of built-in functions, and libraries offer selections of objects with their own functions.</p>
+
 ### defining a function
 By defining a function, we give it a name, state which arguments it can accept, and write the code that the name will represent. The code must be written between a pair of curly brackets.
+
 ### calling a function
 Once we have defined a function, we can run it by writing its name followed by parentheses later in the code.
+
 ## const 
 <p>Const is short for constant, which is a piece of information or an object that can be given a name and used later in the program.</p>
+
 ## argument 
 <p>An argument is a piece of information given to a function within parentheses in order to set a parameter.</p>
