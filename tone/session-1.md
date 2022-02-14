@@ -18,13 +18,13 @@
 
 # JavaScript (without annotations) 
 ```
-  const synth = new Tone.PolySynth()
-  synth.toMaster()
+const synth = new Tone.PolySynth()
+synth.toMaster()
 
-  function start(){
-    Tone.start()
-    synth.triggerAttackRelease("C4")
-  }
+function start(){
+  Tone.start()
+  synth.triggerAttackRelease("C4")
+}
 ```
 
 # JavaScript (with annotations, total 6 lines) 
@@ -60,7 +60,7 @@
 - In this case the command is triggerAttackRelease. Lower case t, upper case A, upper case R. Using lower and upper case letters affects whether the computer will recognise names of functions and objects.
 - The two parentheses after the name of the function contain an argument. The argument here is the name of the note we want to play.
 - To play middle C, we type C4 in quotes.  The quotes can not be the smart quotes that Word or TextEdit create. Normally code editors will not autoreplace these characters for you.
-<p><b>line 6:</b><input value='}' type=text></input></p>
+*line 6:* <input value='}' type=text></input>
 
 - This right curly bracket closes the definition of the start function.
 
@@ -68,10 +68,10 @@
 # List of terms 
 ## object 
 
-<p>An object is a collection of data, which might include numbers, text, and sub-programs.</p>
+An object is a collection of data, which might include numbers, text, and sub-programs.
 
 ## function 
-<p>A function is a sub-program (a set of instructions). JavaScript has its own set of built-in functions, and libraries offer selections of objects with their own functions.</p>
+A function is a sub-program (a set of instructions). JavaScript has its own set of built-in functions, and libraries offer selections of objects with their own functions.  Functions that belong to an object are called methods.
 
 ### defining a function
 By defining a function, we give it a name, state which arguments it can accept, and write the code that the name will represent. The code must be written between a pair of curly brackets.
@@ -80,7 +80,7 @@ By defining a function, we give it a name, state which arguments it can accept, 
 Once we have defined a function, we can run it by writing its name followed by parentheses later in the code.
 
 ## const 
-<p>Const is short for constant, which is a piece of information or an object that can be given a name and used later in the program.</p>
+Const is short for constant, which is a piece of information or an object that can be given a name and used later in the program.
 
 ## argument 
-<p>An argument is a piece of information given to a function within parentheses in order to set a parameter.</p>
+An argument is a piece of information given to a function within parentheses in order to set a parameter.
