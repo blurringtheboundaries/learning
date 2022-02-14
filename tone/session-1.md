@@ -22,8 +22,8 @@
   synth.toMaster()
 
   function start(){
-  Tone.start()
-  synth.triggerAttackRelease("C4")
+    Tone.start()
+    synth.triggerAttackRelease("C4")
   }
 ```
 
