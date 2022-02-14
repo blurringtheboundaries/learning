@@ -1,4 +1,4 @@
-# Information # 
+# Information 
 <p>
   This is a first attempt at a screen-reader friendly coding tutorial for the Tone.js JavaScript library, developed through a collaboration on Zoom between Jason Dasent and Charles Matthews (Blurring the Boundaries Arts). In this tutorial will generate an HTML page with one header and a button that will play a note once clicked.  This requires us to create two files: an HTML page and a script written in JavaScript.
 </p>
@@ -9,17 +9,15 @@
   Navigate to "JavaScript with annotations" for full information on the JavaScript code. Each line is presented as a text field with notes in bullet point form below.
 </p>
 
-# HTML (annotated version coming soon) # 
+# HTML (annotated version coming soon) 
 <code>
-<pre>
 &lt;h1 &gt;Synth&lt;/h1&gt;
 &lt;script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'&gt;&lt;/script&gt;
 &lt;button onclick="start()"&gt;Start&lt;/button&gt;
-</pre>
-</code>
+```
 
-# JavaScript (without annotations) # 
-<code>
+# JavaScript (without annotations) 
+```
   const synth = new Tone.PolySynth()<br>
   synth.toMaster()<br>
 
@@ -27,10 +25,10 @@
   Tone.start()<br>
   synth.triggerAttackRelease("C4")<br>
   }
-</code>
+```
 
 # JavaScript (with annotations, total 6 lines) # 
-## Define a synth using Tone.PolySynth (lines 1 to 2) ## 
+## Define a synth using Tone.PolySynth (lines 1 to 2) 
 <p><b>line 1:</b><input type=text value="const synth = new Tone.PolySynth()"></input></p>
 
 - In this line we define an object called synth. This could be called anything: elephant, banana, etc. as long as it makes sense to us. The name should start with a lower case letter.
@@ -43,7 +41,7 @@
 - Now that we have defined our synth, we can send it to the main output. In this version of the Tone library this is called toMaster (lower case t, upper case M). In later versions of Tone, this has been changed to toDestination.
 - Because synth is an object from the Tone library, it already contains the function called toMaster. We call this by typing a dot after the name synth, followed by toMaster, and finally add the two parentheses to tell JavaScript that we are calling a function.
 
-## Define a function called start, which we will call from the <strong>HTML</strong> button (lines 3 to 6) ## 
+## Define a function called start, which we will call from the <strong>HTML</strong> button (lines 3 to 6) 
 <p><b>line 3:</b><input value="function start() {" type=text></input></p>
 
 - In this line we tell JavasScript that we want to define a function called <strong>start</strong>. 
@@ -68,16 +66,16 @@
 
 
 # List of terms # 
-## object ## 
+## object 
 
 <p>An object is a collection of data, which might include numbers, text, and sub-programs.</p>
-## function ## 
+## function 
 <p>A function is a sub-program (a set of instructions). JavaScript has its own set of built-in functions, and libraries offer selections of objects with their own functions.</p>
-### defining a function ###
+### defining a function
 By defining a function, we give it a name, state which arguments it can accept, and write the code that the name will represent. The code must be written between a pair of curly brackets.
-### calling a function ###
+### calling a function
 Once we have defined a function, we can run it by writing its name followed by parentheses later in the code.
-## const ## 
+## const 
 <p>Const is short for constant, which is a piece of information or an object that can be given a name and used later in the program.</p>
-## argument ## 
+## argument 
 <p>An argument is a piece of information given to a function within parentheses in order to set a parameter.</p>
