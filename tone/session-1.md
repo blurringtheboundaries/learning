@@ -10,7 +10,7 @@
 </p>
 
 # HTML (annotated version coming soon) 
-<code>
+```
 &lt;h1 &gt;Synth&lt;/h1&gt;
 &lt;script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'&gt;&lt;/script&gt;
 &lt;button onclick="start()"&gt;Start&lt;/button&gt;
@@ -27,7 +27,7 @@
   }
 ```
 
-# JavaScript (with annotations, total 6 lines) # 
+# JavaScript (with annotations, total 6 lines) 
 ## Define a synth using Tone.PolySynth (lines 1 to 2) 
 <p><b>line 1:</b><input type=text value="const synth = new Tone.PolySynth()"></input></p>
 
