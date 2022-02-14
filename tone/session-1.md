@@ -11,19 +11,19 @@
 
 # HTML (annotated version coming soon) 
 ```
-&lt;h1 &gt;Synth&lt;/h1&gt;
-&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'&gt;&lt;/script&gt;
-&lt;button onclick="start()"&gt;Start&lt;/button&gt;
+<h1>Synth</h1>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.js'</script>
+<button onclick="start()">Start</button>
 ```
 
 # JavaScript (without annotations) 
 ```
-  const synth = new Tone.PolySynth()<br>
-  synth.toMaster()<br>
+  const synth = new Tone.PolySynth()
+  synth.toMaster()
 
-  function start(){<br>
-  Tone.start()<br>
-  synth.triggerAttackRelease("C4")<br>
+  function start(){
+  Tone.start()
+  synth.triggerAttackRelease("C4")
   }
 ```
 
