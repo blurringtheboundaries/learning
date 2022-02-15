@@ -50,9 +50,7 @@ code(){more code}
   newItem.value = sourceArea.innerHTML;
   // I guess it's probably frowned upon to re-use this role for an input field, but I'd like to find out how it presents in VO at least:
   newItem.setAttribute('role', 'code');
-  // I'd prefer to removeChild but that doesn't work with this div, so I'll clear innerHTML
-  // sourceArea.removeChild(sourceItem);
-  sourceArea.innerHTML = '';
+  sourceArea.removeChild(sourceItem);
+  //sourceArea.innerHTML = '';
   sourceArea.appendChild('newItem');
-  // oops, I got muddled up and forgot the code tag so maybe the comments above don't make sense (testing in a chrome console with the last commit). let's commit and try again..
 </script>
