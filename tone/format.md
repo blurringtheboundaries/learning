@@ -31,7 +31,9 @@ Next:
 Let's try a quick script to convert a block of text tagged as code into a text input field.  This could be toggled by the user.
 
 <div id='testArea'>
-```code(){more code}```
+<code>
+code(){more code}
+</code>
 </div>
 
 <script>
