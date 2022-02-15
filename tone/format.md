@@ -31,12 +31,26 @@ Next:
 Let's try a quick script to convert a block of text tagged as code into a text input field.  This could be toggled by the user.
 
 <div id='testArea'>
-`code(){more code}`
+```code(){more code}```
 </div>
 
 <script>
   // I don't want to convert all the fields in this page just yet, so I'll get the first child of an allocated div. 
-  // log them to the console to start
   console.log(document.getElementById('testArea'));
-  console.log(document.getElementById('testArea').children[0]);
+  console.log('first child',document.getElementById('testArea').children[0]);
+  // this would eventually be document.querySelectorAll('code')
+  // and therefore I'd be replacing the item rather than its child
+  console.log(document.querySelectorAll('code'));
+  let sourceArea = document.getElementById('testArea')
+  let sourceItem = sourceArea.children[0]
+  console.log(sourceArea, sourceItem);
+  let newItem = document.createElement('INPUT');
+  newItem.value = sourceArea.innerHTML;
+  // I guess it's probably frowned upon to re-use this role for an input field, but I'd like to find out how it presents in VO at least:
+  newItem.setAttribute('role', 'code');
+  // I'd prefer to removeChild but that doesn't work with this div, so I'll clear innerHTML
+  // sourceArea.removeChild(sourceItem);
+  sourceArea.innerHTML = '';
+  sourceArea.appendChild('newItem');
+  // oops, I got muddled up and forgot the code tag so maybe the comments above don't make sense (testing in a chrome console with the last commit). let's commit and try again..
 </script>
