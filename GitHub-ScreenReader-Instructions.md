@@ -24,8 +24,8 @@ It's designed to walk the user through in an easy to understand manner.
   
 #### Creating a bullet list
 - Type a hyphen followed by a space, then the text of the bullet point.
-- To create sub-level bullet points, type the hyphen key the number of times corresponding to the desired level of bullet point. 
-- Make sure there is a space between the last bullet point and the next heading in the document.
+- To create sub-level bullet points, press the tab key the number of times corresponding to the desired level of bullet point, followed by a hyphen and a space before typing the desired text. 
+- Make sure there is a double line break between the last bullet point and the next heading in the document.
 
 # Creating a repository
 - Navigate to the GitHub home page.
