@@ -22,3 +22,21 @@ Next: trying out a line of code with description (see the main tutorial file in 
 <li>The tone library contains a type of object called PolySynth (capital P and S). This is followed by parentheses, which we can fill with parameters in future explorations.</li>
   </ul>
 </details>
+
+In the session, we preferred using a text input field which would automatically select the contained code for copying.
+(CM: This could also be regular text accompanied by a 'copy' button, but are there any other advantages to using the text field?)
+
+Next: 
+
+Let's try a quick script to convert a block of text tagged as code into a text input field.  This could be toggled by the user.
+
+<div id='testArea'>
+`code(){more code}`
+</div>
+
+<script>
+  // I don't want to convert all the fields in this page just yet, so I'll get the first child of an allocated div. 
+  // log them to the console to start
+  console.log(document.getElementById('testArea'));
+  console.log(document.getElementById('testArea').children[0]);
+</script>
