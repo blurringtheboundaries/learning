@@ -36,6 +36,8 @@ code(){more code}
 </code>
 </div>
 
+<input type='text' value='test'></input>
+
 <script>
   // I don't want to convert all the fields in this page just yet, so I'll get the first child of an allocated div. 
   console.log(document.getElementById('testArea'));
