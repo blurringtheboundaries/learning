@@ -37,7 +37,7 @@ code(){more code}
 </div>
 
 <script>
- // I don't want to convert all the fields in this page just yet, so I'll get the first child of an allocated div. 
+  // I don't want to convert all the fields in this page just yet, so I'll get the first child of an allocated div. 
   console.log(document.getElementById('testArea'));
   console.log('first child',document.getElementById('testArea').children[0]);
   // this would eventually be document.querySelectorAll('code')
@@ -50,8 +50,7 @@ code(){more code}
   newItem.value = sourceArea.innerHTML;
   // I guess it's probably frowned upon to re-use this role for an input field, but I'd like to find out how it presents in VO at least:
   newItem.setAttribute('role', 'code');
-  // sourceArea.removeChild(sourceItem);
-  // //sourceArea.innerHTML = '';
-  // sourceArea.appendChild('newItem');
-
+   sourceArea.removeChild(sourceItem);
+ //sourceArea.innerHTML = '';
+  sourceArea.appendChild(newItem);
 </script>
