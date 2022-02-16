@@ -53,4 +53,9 @@ code(){more code}
    sourceArea.removeChild(sourceItem);
  //sourceArea.innerHTML = '';
   sourceArea.appendChild(newItem);
+  newItem.role='textarea';
+  newItem.type='text';
+  newItem.setAttribute('aria-label', 'line 1');
+  newItem.innerHTML = 'code(){more code}';
+  newItem.value = 'code(){more code}';
 </script>
